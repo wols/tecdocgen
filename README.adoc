@@ -1,10 +1,26 @@
 = tecdocgen
 WOLfgang Schricker <git@wols.org>
 v0.1, 2021-01-08
+:icons:             font
+ifdef::env-github[]
+:tip-caption:       :bulb:
+:note-caption:      :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption:   :fire:
+:warning-caption:   :warning:
+endif::[]
 
 **Tec**hnical **Doc**umentation **Gen**erator
 
 My personal link:https://antora.org/[Antora, window=_blank] workchain
+
+[IMPORTANT]
+====
+This software is under the heavy development and considered ALPHA quality till the version hits >=1.0.0.
+Things might be broken, not all features have been implemented and APIs will be likely to change.
+
+YOU HAVE BEEN WARNED.
+====
 
 == Setup
 
@@ -21,3 +37,5 @@ pipenv run pre-commit install -t pre-push
 == Credits
 
 This package was created with Cookiecutter and the link:https://github.com/sourcery-ai/python-best-practices-cookiecutter[sourcery-ai/python-best-practices-cookiecutter, window=_blank] project template.
+
+// EOF README.adoc
