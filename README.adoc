@@ -3,16 +3,14 @@ WOLfgang Schricker <git@wols.org>
 v0.1, 2021-01-08
 :icons:             font
 ifdef::env-github[]
-:tip-caption:       :bulb:
-:note-caption:      :information_source:
-:important-caption: :heavy_exclamation_mark:
 :caution-caption:   :fire:
+:important-caption: :heavy_exclamation_mark:
+:note-caption:      :information_source:
+:tip-caption:       :bulb:
 :warning-caption:   :warning:
 endif::[]
 
-**Tec**hnical **Doc**umentation **Gen**erator
-
-My personal link:https://antora.org/[Antora, window=_blank] workchain
+**Tec**hnical **Doc**umentation **Gen**erator - My personal link:https://antora.org/[Antora, window=_blank] workchain
 
 [IMPORTANT]
 ====
