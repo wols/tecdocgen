@@ -1,0 +1,23 @@
+= tecdocgen
+WOLfgang Schricker <git@wols.org>
+v0.1, 2021-01-08
+
+**Tec**hnical **Doc**umentation **Gen**erator
+
+My personal link:https://antora.org/[Antora, window=_blank] workchain
+
+== Setup
+
+[source, sh]
+----
+# Install dependencies
+pipenv install --dev
+
+# Setup pre-commit and pre-push hooks
+pipenv run pre-commit install -t pre-commit
+pipenv run pre-commit install -t pre-push
+----
+
+== Credits
+
+This package was created with Cookiecutter and the link:https://github.com/sourcery-ai/python-best-practices-cookiecutter[sourcery-ai/python-best-practices-cookiecutter, window=_blank] project template.
